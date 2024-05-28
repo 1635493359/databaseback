@@ -44,7 +44,7 @@ DATE=$(date)
 NAME="MYSQL"
 curl -X POST -H "Content-Type: application/json"  \
      -d "{\"dbName\":\"$NAME\",\"fileName\":\"$FILENAME\", \"fileSize\":\"$FILESIZE\",\"date\":\"$DATE\"}" \
-     http://192.168.16.196:4000/issue/dataBoard/backup
+     接口地址
 
 
 
@@ -99,4 +99,4 @@ NAME="INFLUXDB"
 
 curl -X POST -H "Content-Type: application/json"  \
      -d "{\"dbName\":\"$NAME\",\"fileName\":\"$FILENAME\", \"fileSize\":\"$FILESIZE\",\"date\":\"$DATE\"}" \
-     http://192.168.16.196:4000/issue/dataBoard/backup
+     接口地址
